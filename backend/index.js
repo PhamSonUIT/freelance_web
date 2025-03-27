@@ -10,7 +10,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(rootRoutes);
 
-const port = 3000;
+const port = 3001;
 
 app.listen(port, () => {
   console.log(`BE is running with port ${port}`);
